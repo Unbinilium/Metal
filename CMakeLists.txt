@@ -17,9 +17,9 @@ target_include_directories(Metal INTERFACE
 
 target_compile_definitions(Metal INTERFACE
     NS_PRIVATE_IMPLEMENTATION
+    CA_PRIVATE_IMPLEMENTATION
     MTL_PRIVATE_IMPLEMENTATION
     MTK_PRIVATE_IMPLEMENTATION
-    CA_PRIVATE_IMPLEMENTATION
 )
 
 target_link_libraries(Metal INTERFACE
